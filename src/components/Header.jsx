@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Search, Heart, ShoppingCart, User, LogOut } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import './header.css';
+import './Header.css';
 
 export default function Header({
   searchQuery,
