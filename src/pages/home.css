@@ -1,0 +1,169 @@
+/* Base Background */
+body {
+  background-color: #fff5e1; /* Warm cream background for softness */
+  font-family: 'Poppins', sans-serif;
+  color: #333; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Category Section */
+.category-section {
+  margin-bottom: 4rem;  /* More breathing space */
+  padding: 0 1rem;
+}
+
+/* Category Title */
+.category-title {
+  font-weight: 600;
+  color: #ff6a00;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* See More Button Wrapper */
+.see-more-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.8rem;
+  padding-right: 2rem;
+}
+
+/* See More Button */
+.see-more-btn {
+  background-color: #ff6a00;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(255, 106, 0, 0.5);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  outline-offset: 3px;
+}
+
+.see-more-btn:hover {
+  background-color: #ff8c1a;
+  animation: pulse 1.5s infinite;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff6a00ff;
+}
+
+.see-more-btn:focus {
+  outline: 2px solid #ff6a00;
+}
+
+.see-more-btn:active {
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0.3);
+  transform: scale(0.98);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 10px #ff6a00aa;
+  }
+  50% {
+    box-shadow: 0 0 20px #ff6a00ff;
+  }
+}
+
+/* Footer Styles */
+.home-footer {
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  border-top: 1px solid #444;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #f0f0f0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Circle with Text on Left */
+.footer-left-circle {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff6a00;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 10px #ff6a00aa;
+  user-select: none;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+/* Text container next to the circle */
+.footer-text-and-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #f0f0f0;
+  max-width: 300px;
+}
+
+/* Footer Heading */
+.footer-text {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  color: #ff6a00;
+}
+
+/* Footer Hours */
+.footer-hours {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #ccc;
+  gap: 0.6rem;
+}
+
+/* Status Circle (like "open" indicator) */
+.status-circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #28a745;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #28a745cc;
+}
+
+/* Utility: food-card image hover (if you have cards) */
+.food-card img {
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.food-card:hover img {
+  filter: brightness(1.1) saturate(1.2);
+  transform: scale(1.05);
+}
