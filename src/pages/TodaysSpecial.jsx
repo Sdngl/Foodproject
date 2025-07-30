@@ -28,3 +28,4 @@ export default function TodaysSpecial({ onAddToCart, onAddToFavorites, favorites
     </div>
   );
 }
+// This component displays a list of today's special food items.

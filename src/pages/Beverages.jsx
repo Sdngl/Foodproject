@@ -28,3 +28,4 @@ export default function Beverages({ onAddToCart, onAddToFavorites, favorites }) 
     </div>
   );
 }
+// This component displays a list of beverages available for order.
