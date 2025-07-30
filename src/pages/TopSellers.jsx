@@ -28,3 +28,4 @@ export default function TopSellers({ onAddToCart, onAddToFavorites, favorites })
     </div>
   );
 }
+// This component displays a list of top-selling food items.

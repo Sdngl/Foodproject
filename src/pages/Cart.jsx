@@ -110,3 +110,4 @@ export default function Cart({ cartItems = [], onUpdateQuantity, onRemoveItem })
     </div>
   );
 }
+// This component displays the user's cart with items, quantities, and total price.
