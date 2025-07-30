@@ -4,10 +4,10 @@ import FoodCard from "../components/FoodCard";
 
 // Import images
 import biryaniImg from "../images/biryani.webp";
-import momoImg from "../images/Momo.jpg";
+import momoImg from "../images/momo.jpg";
 import sekuwaImg from "../images/sekuwa.webp";
 import crispyImg from "../images/cripsy.jpg";
-import butterImg from "../images/Butter.jpg";
+import butterImg from "../images/butter.jpg";
 import momoTop from "../images/momo.jpg";
 import pizzaTop from "../images/pizza.jpg";
 import burgerTop from "../images/burger.jpg";

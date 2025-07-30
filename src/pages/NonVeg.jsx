@@ -5,7 +5,7 @@ import sekuwaImg from "../images/sekuwa.webp";
 import burgerTop from "../images/burger.jpg";
 import pizzaTop from "../images/pizza.jpg";
 import chocomomoTop from "../images/chocomomo.webp";
-import momoImg from "../images/Momo.jpg"; // ✅ Add Momo
+import momoImg from "../images/momo.jpg"; // ✅ Add Momo
 
 const nonVegItems = [
   { id: 1, src: biryaniImg, alt: "Chicken Biryani", name: "Chicken Biryani", price: "899" },
