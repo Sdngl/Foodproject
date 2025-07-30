@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.food-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #d62828; /* appetizing tomato red */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.food-section {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.food-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 2.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.food-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.food-card {
+  flex: 0 0 auto;
+  width: 250px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.food-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  display: block;
+  cursor: pointer;
+}
+
+.food-img:hover {
+  transform: scale(1.05);
+}
+
+.food-img-wrapper {
+  position: relative;
+}
+
+.icon-overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 6px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 10;
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.food-img-wrapper:hover .icon-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.top-icons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d62828; /* tomato red icons */
+  padding: 2px;
+}
+
+.icon-btn:hover {
+  transform: scale(1.2);
+  color: #f77f00; /* warm orange hover */
+}
+
+.food-name {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.food-price {
+  font-size: 0.95rem;
+  color: #2a9d8f; /* fresh green for prices */
+  font-weight: 600;
+}
+
+.remove-favorite-btn {
+  position: absolute;
+  left: -0px;
+  top: 55%;
+  transform: translateY(-50%);
+  background: #f8f9fa;
+  border: none;
+  color: #d62828;
+  font-size: 18px;
+  font-weight: bold;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  opacity: 0.9;
+  user-select: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.remove-favorite-btn:hover {
+  background: #ffe5d9;
+  color: #e63946; /* brighter foodie red */
+}
+
+.cart-grid button.cart-qty-btn {
+  background: #f77f00; /* warm orange */
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-grid button.cart-qty-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.cart-grid button.cart-qty-btn:hover:not(:disabled) {
+  background: #d95f00; /* deeper orange hover */
+}
+
+.cart-grid button.cart-remove-btn {
+  background: transparent;
+  border: none;
+  color: #d62828;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 6px;
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.cart-grid button.cart-remove-btn:hover {
+  color: #b30000;
+}
+
+.cart-item-price {
+  text-align: center;
+  margin-top: 6px;
+  font-weight: 600;
+  color: #2a9d8f; /* match price color */
+}
+
+.cart-total {
+  margin-top: 0rem;
+  text-align: center;
+  color: #264653; /* dark green for balance */
+  font-weight: bold;
+}
