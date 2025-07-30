@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './loginform.css'; // renamed CSS file for clarity
+import './Loginform.css'; // renamed CSS file for clarity
 
 export default function LoginForm({ setIsLoggedIn }) {
   const [username, setUsername] = useState('');
