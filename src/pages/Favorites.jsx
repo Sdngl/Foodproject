@@ -21,3 +21,4 @@ export default function Favorites({ favorites = [], onAddToCart, onRemoveFromFav
     </div>
   );
 }
+// This component displays the user's favorite food items with options to add to cart or remove from favorites.
