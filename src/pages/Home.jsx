@@ -5,12 +5,12 @@ import FoodCard from '../components/FoodCard';
 import './home.css';
 
 import biryaniImg from '../images/biryani.webp';
-import momoImg from '../images/momo.jpg';           // changed Momo.jpg → momo.jpg
+import momoImg from '../images/Momo.jpg';           // changed Momo.jpg → momo.jpg
 import sekuwaImg from '../images/sekuwa.webp';
 import crispyImg from '../images/cripsy.jpg';
-import butterImg from '../images/butter.jpg';       // changed Butter.jpg → butter.jpg
+import butterImg from '../images/Butter.jpg';       // changed Butter.jpg → butter.jpg
 
-import momoTop from '../images/momo.jpg';            // changed Momo.jpg → momo.jpg
+import momoTop from '../images/Momo.jpg';            // changed Momo.jpg → momo.jpg
 import pizzaTop from '../images/pizza.jpg';
 import burgerTop from '../images/burger.jpg';
 import choumeinTop from '../images/choumein.jpg';
@@ -19,7 +19,7 @@ import chocomomoTop from '../images/chocomomo.webp';
 import cokeBev from '../images/coke.jpg';
 import fantaBev from '../images/fanta.jpg';
 import beerBev from '../images/beer.jpeg';
-import lassiBev from '../images/lassi.webp';          // changed Lassi.webp → lassi.webp
+import lassiBev from '../images/Lassi.webp';          // changed Lassi.webp → lassi.webp
 import oakBev from '../images/oak.jpeg';
 
 const todaysSpecial = [

@@ -1,8 +1,8 @@
 import React from "react";
 import FoodCard from "../components/FoodCard";
-import momoImg from "../images/momo.jpg";
+import momoImg from "../images/Momo.jpg";
 import crispyImg from "../images/cripsy.jpg";
-import butterImg from "../images/butter.jpg";
+import butterImg from "../images/Butter.jpg";
 
 const vegItems = [
   { id: 1, src: momoImg, alt: "Veg Momo", name: "Veg Momo", price: "199" },

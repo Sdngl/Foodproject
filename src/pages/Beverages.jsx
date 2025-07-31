@@ -4,7 +4,7 @@ import FoodCard from '../components/FoodCard';
 import cokeImg from '../images/coke.jpg';
 import fantaImg from '../images/fanta.jpg';
 import beerImg from '../images/beer.jpeg';
-import lassiImg from '../images/lassi.webp';
+import lassiImg from '../images/Lassi.webp';
 import oakImg from '../images/oak.jpeg';
 
 const beverages = [
