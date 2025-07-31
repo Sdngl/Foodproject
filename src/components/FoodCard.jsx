@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaShoppingCart, FaHeart, FaRegHeart } from 'react-icons/fa';
-import './foodcard.css';
+import './Foodcard.css';
 
 export default function FoodCard({
   title,
