@@ -208,3 +208,37 @@ li p {
     padding: 2rem 1.5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .food-scroll-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+  }
+
+  .food-card {
+    width: 200px;
+  }
+
+  .hero-container {
+    height: 30vh;
+  }
+
+  .food-title,
+  .category-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Optional: prevent horizontal scroll */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
