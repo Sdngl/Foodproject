@@ -8,7 +8,7 @@ import momoImg from "../images/Momo.jpg";
 import sekuwaImg from "../images/sekuwa.webp";
 import crispyImg from "../images/cripsy.jpg";
 import butterImg from "../images/Butter.jpg";
-import momoTop from "../images/momo.jpg";
+import momoTop from "../images/Momo.jpg";
 import pizzaTop from "../images/pizza.jpg";
 import burgerTop from "../images/burger.jpg";
 import choumeinTop from "../images/choumein.jpg";
