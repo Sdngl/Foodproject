@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './popup.css';
+import './Popup.css';
 
 export default function Popup({ isOpen, onClose, cartItems = [], totalPrice = 0 }) {
   const [showSuccess, setShowSuccess] = useState(false);
